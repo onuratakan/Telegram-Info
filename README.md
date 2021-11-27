@@ -1,19 +1,11 @@
-```
-Made with Python3
-(C) @FayasNoushad
-Copyright permission under MIT License
-License -> https://github.com/FayasNoushad/Telegram-Info/blob/main/LICENSE
-```
-
----
+# Telegram Info
+A telegram user or chat information finder
 
 ## Installation
 
 ```
 pip install TelegramInfo
 ```
-
----
 
 ## Usage
 
@@ -37,11 +29,3 @@ def chat_filter(client, message):
     )
 # returns data of chat as text
 ```
-
----
-
-## Credits
-
-- [Fayas Noushad](https://github.com/FayasNoushad)
-
----

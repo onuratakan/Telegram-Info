@@ -20,15 +20,12 @@ def readme(file="README.md"):
 
 setuptools.setup(
     name="TelegramInfo",
-    version="1.0.1",
+    version="1.0.2",
     description="Telegram user and chat information extractor",
     long_description=readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/FayasNoushad/Telegram-Info",
-    download_url="https://github.com/FayasNoushad/Telegram-Info/releases/latest",
     license="MIT",
     author="Fayas Noushad",
-    author_email="contact@fayas.me",
     classifiers=[
         "Intended Audience :: Developers",
         "Natural Language :: English",
@@ -38,10 +35,10 @@ setuptools.setup(
     ],
     project_urls={
         "Tracker": "https://github.com/FayasNoushad/Telegram-Info/issues",
-        "Source": "https://github.com/FayasNoushad/Telegram-Info",
-        "Documentation": "https://telegram-info.projects.fayas.me",
+        "Source": "https://github.com/FayasNoushad/Telegram-Info"
     },
     python_requires=">=3.6",
+    py_modukes=['telegraminfo'],
     packages=setuptools.find_packages(),
     zip_safe=False,
     install_requires=requirements()
